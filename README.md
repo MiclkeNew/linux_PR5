@@ -11,3 +11,6 @@ curl http://localhost:5000/hello/misha
 Вывод
 {"message":"Hello from Vasya, misha!"}
 Программа работает корректно
+
+Запуск Докеркомпоуз
+docker-compose up 
