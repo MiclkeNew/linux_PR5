@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  date1:
+    image: test_app
+    command: ./date
+  ps1:
+    image: test_app
+    command: ./ps
+
