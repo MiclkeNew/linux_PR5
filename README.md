@@ -7,7 +7,7 @@ docker ps
 Вывод терминала:
 18b94176f928   test_app   "python app.py"   25 minutes ago   Up 25 minutes   0.0.0.0:5000->5000/tcp, :::5000->5000/tcp   zealous_pike
 Проверка 
-curl http://localhost:5000/hello/artem
+curl http://localhost:5000/hello/misha
 Вывод
-{"message":"Hello from Vasya, artem!"}
+{"message":"Hello from Vasya, misha!"}
 Программа работает корректно
